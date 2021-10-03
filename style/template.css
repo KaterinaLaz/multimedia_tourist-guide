@@ -1,0 +1,66 @@
+body{
+  background-color: #FFFACD;
+}
+
+/* μορφή του κουμπιού menu*/
+.menu
+{
+  background-color: #FFA07A;
+  width: 100px;
+  padding: 10px 35px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: medium;
+  transition: 0.4s;			/*αναμονή για να μεταβεί στην επόμενη σελίδα απο την στιγμή που γίνετε clik*/
+  position: relative;
+  left: 1605px;
+  top: 850px;
+  cursor: pointer;		/*αλλαγή του κέρσορα σε pointer*/
+}
+
+/* μορφή του κουμπιού back*/
+.back{
+  background-color: #FF6347;
+  width: 100px;
+  padding: 10px 35px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: large;
+  transition: 0.4s;			/*αναμονή για να μεταβεί στην επόμενη σελίδα απο την στιγμή που γίνετε clik*/
+  position: relative;
+  left: 1500px;
+  top: 800px;
+  cursor: pointer;		/*αλλαγή του κέρσορα σε pointer*/
+}
+
+/* μορφή του κουμπιού next*/
+.next
+{
+  background-color: 	#B0E0E6;
+  width: 100px;
+  padding: 10px 35px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: large;
+  transition: 0.4s;			/*αναμονή για να μεταβεί στην επόμενη σελίδα απο την στιγμή που γίνετε clik*/
+  position: relative;
+  left: 1500px;
+  top: 800px;
+  cursor: pointer;		/*αλλαγή του κέρσορα σε pointer*/
+}
+
+
+/*όταν περάνει ο κέρσορας πάνω απο τα κουμπιά αλλάζουν χρώμα*/
+.next:hover
+{
+  background-color:	#00FF7F;
+}
+.menu:hover
+{
+  background-color: #F4A460;
+}
+.back:hover
+{
+  background-color: #ff3300;
+}
+
