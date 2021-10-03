@@ -1,0 +1,48 @@
+/*μορφή της εικίνα του εκθέματος*/
+.img
+{
+  position: relative;
+  left: -10%;
+  bottom: 400px;
+  border: 5px double black;
+  padding: 5px;
+  width: 500px;
+  height: 500px;
+}
+
+/*μορφή της εικίνα του εκθέματος*/
+.img-guide
+{
+  position: relative;
+  left: 25%;
+  bottom: 380px;
+  width: 300px;
+}
+
+/*μορφή της περιγραφής του εκθέματος*/
+.ex{
+  border: 5px groove 	#C0C0C0;
+  padding: 40px;
+  width: 300px;
+  position: relative;
+  font-size: x-large;
+  left: 40%;
+  top: 150px;
+}
+h2{
+    text-decoration: underline;
+    position: relative;
+    left: 6%;
+  }
+  
+/*μορφή της μπάρας για την background μουσικής*/
+.music{
+  display: none; 		/* να μην είναι εμφανής*/
+}
+
+/*μορφή της μπάρας που είναι υπεύθυνη για αναπροσαρμογή της προγραφής  του εκθέματος*/
+audio{
+  position: relative;
+  left: 43%;
+  bottom: 340px;
+  }
